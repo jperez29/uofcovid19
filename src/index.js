@@ -16,6 +16,10 @@ import Survey from './Survey';
 import Profile from './Profile';
 import GoodToGo from './GoodToGo';
 
+import Signup from './Signup';
+import GoodToGo from './GoodToGo';
+
+
 // Example Sites
 import ExerciseList from './components/exercises-list.component';
 import EditExercise from './components/edit-exercise.component';
@@ -41,6 +45,9 @@ ReactDOM.render(
           </Route>
           <Route exact path="/login">
             <Login />
+          </Route>
+          <Route exact path="/signup">
+            <Signup />
           </Route>
           <Route exact path="/register">
             <RegAccount />
