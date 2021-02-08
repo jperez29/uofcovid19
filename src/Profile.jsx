@@ -20,7 +20,7 @@ function Profile() {
                 <Col md={6}>
                   <h1>Welcome, Brenda!</h1>             
                   <Row>
-                    <Col>First Name: Brenda     
+                    <Col>First Name: Brenda      
                     </Col>                      
                     <Col>Last Name: Brown</Col>
                     {/* <Col><img className="img-fluid"
